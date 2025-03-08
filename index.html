@@ -1,88 +1,130 @@
 <!DOCTYPE html>
 
- <html lang="en"> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>    
-
-<meta charset="UTF-8">  
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-
- <title>BamBam Bites Menu</title> </head>
-
- <body>   
-
- <h1>BamBam Bites Menu</h1>
-
-    <h2>Appetizers</h2>  
-
-  <ul>     
-
-   <li>          
-
-  <strong>Caesar Salad</strong>       
-
-     <p>Romaine lettuce, Parmesan cheese, Crisp croutons and Caesar salad dressing.</p> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
    
-  </li>  
+    <title>BamBam Bites Menu</title>
+  </head>
 
-  </ul>
-  <img src="Caesar Salad.jpeg" alt="Caesar Salad">
+  <body>
+    <h1 class="header">BamBam Bites Menu</h1>
 
+    <div class="container">
+      <h2>Appetizers</h2>
 
-  <ul>
-    <li>
-      <strong>Nkowbi</strong>
-      <p>Cow foot, Edible potash, Ehu seeds, Palm Oil</p>
+      <div class="col-1">
+        <ul>
+          <li>
+            <strong>Caesar Salad</strong>
 
-    </li>
-  </ul>
-  <img src="Nkwobi.jpeg" alt="Nkowbi">
+            <p>
+              Romaine lettuce, Parmesan cheese, Crisp croutons and Caesar salad
+              dressing.
+            </p>
+          </li>
+        </ul>
+        <div>
+          <img src="./Images/Caesar Salad.jpeg" alt="Caesar Salad" />
+        </div>
+      </div>
 
+      <div class="col-2">
+        <ul>
+          <li>
+            <strong>Nkowbi</strong>
+            <p>Cow foot, Edible potash, Ehu seeds, Palm Oil</p>
+          </li>
+        </ul>
+        <div>
+          <img src="./Images/Nkwobi.jpeg" alt="Nkowbi" />
+        </div>
+      </div>
+    </div>
 
-  <h2>Main Courses</h2> 
+    <div class="container">
+      <h2>Main Courses</h2>
+      <div class="col-1">
+        <div>
+          <img src="./Images/Steak.jpg" alt="Steak" class="steak" />
+        </div>
+        <ul>
+          <li>
+            <strong>Grilled Steak</strong>
+            <p>
+              Steak seasoned and grilled to perfection, served with Baked Potato
+              and Green Beans.
+            </p>
+          </li>
+        </ul>
+      </div>
 
-  <ul>   
-     <li>      
-      <strong>Grilled Steak</strong>     
-        <p>Steak seasoned and grilled to perfection, served with Baked Potato and Green Beans.</p>   
-     </li>     
-  </ul>   
-   <img src="Steak.jpg" alt="Steak">
+      <div class="col-2">
+        <div class="seafood">
+          <img
+            src="./Images/Seafood Boil.jpg"
+            alt="Seafood Boil"
+            class="Seafood"
+          />
+        </div>
+        <ul>
+          <li class="seafood-text">
+            <strong>Seafood Boil</strong>
+            <p>
+              Jumbo shrimp, Crab, Andouille sauasage, Eggs and Corn on the cob
+              that's simmered in a <br> flavour-filled broth of cajun spices and
+              aromatics.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
 
-   <ul>
-      <li>
-        <strong>Seafood Boil</strong>
-          <P>Jumbo shrimp, Crab, Andouille sauasage, Eggs and Corn on the cob that's simmered in a flavour-filled broth of cajun spices and aromatics.</P>
-     </li>
-   </ul>
-    <img src="Seafood Boil.jpg" alt="Seafood Boil">
+      <div class="container">
+        <h2>Desserts</h2>
+        <div class="col-1">
+          <ul>
+            <li>
+              <strong>Ice Scream Sundae</strong>
 
- <h2>Desserts</h2>  
+              <p>
+                Ice cream toppings, whipped cream, chopped nuts, sprinkles or
+                jimmies.
+              </p>
+            </li>
+          </ul>
+        
 
-  <ul>     
-    <li>    
+        <div class="icecream">
+          <img src="./Images/Ice cream.jpg" alt="Ice cream" class="Icecream" />
+        </div>
+        </div>
+      
+      <div class="col-2">
+        <ul>
+          <li>
+            <strong>Chocolate Brownies</strong>
+            <p>Unsalted butter, Granulated sugar, Egg yolk, Vanilla extract.</p>
+          </li>
+        </ul>
+        <div class="choco">
+          <img
+            src="./Images/Chocolate Brownies.jpeg"
+            alt="Chocolate Brownies"
+          />
+        </div>
+      </div>
+    </div>
 
-        <strong>Ice Scream Sundae</strong>     
-
-       <p>Ice cream toppings, whipped cream, chopped nuts, sprinkles or jimmies.</p>    
-
-    </li>    
-  </ul> 
-  <img src="Ice cream.jpg" alt="Ice cream">
-
-  <ul>
-    <li>
-      <strong>Chocolate Brownies</strong>
-        <p>Unsalted butter, Granulated sugar, Egg yolk, Vanilla extract.</p>
-   </li>
-  </ul>
-  <img src="Chocolate Brownies.jpeg" alt="Chocolate Brownies">
-
-   <p><a href="contact.html">Contact us for reservations</a></p> 
-
-</body>
-
- </html>
-
-
+    <div>
+      <p><a href="contact.html">Contact us for reservations</a></p>
+    </div>
+  </body>
+</html>

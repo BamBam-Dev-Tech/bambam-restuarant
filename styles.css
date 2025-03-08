@@ -1,0 +1,70 @@
+
+.header{
+  color: #C9AB81;
+  font-weight: 500;
+  font-family: "Dancing script";
+  font-size: 70px;
+text-align: center;
+
+}
+
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #080808;
+}
+p {
+  color: #fff;
+}
+li{
+  color: #C9AB81;
+}
+
+
+
+ .container{
+  background-color: #0D1719;
+ }
+
+ h2 {
+  font-size: 40px;
+  color: #B4AE94;
+ }
+.col-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  /* margin-right: 20px; */
+}
+.col-1 p {
+  margin-right: 20px;
+}
+
+.col-1 img{
+  width: 180px;
+  height: 90%;
+}
+
+
+.col-2{
+  display: flex;
+  justify-content: space-between;
+  justify-items: end;
+}
+
+.col-2 img {
+  width: 100%;
+  height: 70% ;
+}
+
+.seafood{
+  width: 180px;
+  height: 170px;
+}
+
+.icecream{
+  height: 150px;
+}
+.choco {
+  width: 180px;
+  height: 180px;
+}
